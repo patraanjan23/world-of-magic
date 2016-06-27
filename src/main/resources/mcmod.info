@@ -1,0 +1,15 @@
+{
+{
+    "modid": "wm",
+    "name": "World of Magic",
+    "description": "Adds a world of magic to Minecraft, similar to Ars Magica.",
+    "version": "A.0.1",
+    "mcversion": "1.9.4",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Foof"],
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["mod_MinecraftForge"]
+}
+}
