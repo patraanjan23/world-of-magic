@@ -22,23 +22,18 @@ public class WorldOfMagic {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		
 		System.out.println("Pre Init");
-		
-		ModItems.init();
-		ModItems.register();
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		
 		System.out.println("Pre Init");
-		proxy.init();
+		ModItems.registerItems();
+		proxy.registerRenderers();
 	}
 	
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		
 		System.out.println("Pre Init");
 	}
 }
